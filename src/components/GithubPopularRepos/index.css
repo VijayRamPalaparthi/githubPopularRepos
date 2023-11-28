@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.home-container {
+  background-color: white;
+  min-height: 100vh;
+  width: 68vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-heading {
+  font-family: 'Lobster';
+  font-weight: bold;
+  font-size: 45px;
+  color: black;
+  text-align: center;
+}
+.filter-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+.repo-list-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}

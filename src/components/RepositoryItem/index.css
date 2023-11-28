@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.repo-image {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+}
+.card-heading {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 22px;
+  color: #e73959;
+  text-align: center;
+}
+.star-container {
+  display: flex;
+  align-items: center;
+}
+.icons {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.detail {
+  font-family: 'roboto';
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 15px;
+}
